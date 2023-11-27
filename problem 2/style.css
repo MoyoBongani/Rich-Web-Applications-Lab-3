@@ -1,0 +1,113 @@
+.body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+  }
+
+
+.container {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.time {
+    padding-top: 30px;
+}
+
+#hours {
+    height: 70px;
+    width: 70px;
+    font-size: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input {
+    text-align: center;
+    background-color: #ddd;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#minutes {
+    height: 70px;
+    width: 70px;
+    font-size: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#seconds {
+    height: 40px;
+    width: 40px;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 3em;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    font-size: 1em;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button:active {
+    background-color: #aaa;
+}
+
+#start {
+    margin-top: 20px;
+}
+
+.countdown_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#countdown {
+    font-size: 5em;
+    color: #000000;
+}
+
+#pause_resume {
+    margin-top: 20px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  #countdown.reachedZero {
+    animation: blink 1s linear 3; /* blink 3 times, each blink lasts 1 second */
+  }

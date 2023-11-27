@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Problem 2</title>
+    </head>
+
+    <body>
+        <h1>Bongani's Countdown Timer</h1>
+        <div class="container">
+
+            <div class="time">
+                <input type="number" id="hours" placeholder="h">
+                <span>:</span>
+                <input type="number" id="minutes" placeholder="m">
+                <span>:</span>
+                <input type="number" id="seconds" placeholder="s">
+            </div>
+
+            <button id="start">&#9658; START COUNTDOWN</button>
+        </div>
+
+        <div class="countdown_container">
+            <div id="countdown">00:00:00</div>
+            <button id="pause_resume">&#9612;&#9612; PAUSE</button>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.8.1/rxjs.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

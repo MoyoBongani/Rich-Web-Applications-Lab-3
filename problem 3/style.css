@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#notes {
+  margin-top: 20px;
+}
+
+#notes div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ededed;
+}
+
+#notes input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #ffac54;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff8808;
+}

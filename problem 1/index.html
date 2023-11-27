@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>problem 1</title>
+</head>  
+ 
+<body>
+  <div id="wrapper">
+    <div id="editor">
+      <h2 id="editor-title">Bongani's Note Taking App</h2>
+      <label>Title:</label>
+      <input type="text" id="title" name="title" />
+      <label>Description:</label>
+      <textarea rows="10" cols="42" id="message" name="message"></textarea>
+      <label>Select Colour:</label>
+      <select id="color" name="color">
+        <option value="red">red</option>
+        <option value="pink">pink</option>
+        <option value="yellow">yellow</option>
+        <option value="blue">blue</option>
+      </select>
+      
+      <div id="button">
+        <button id="btn">Create Note</button>
+        <div id="error"></div>
+      </div>
+    </div>
+
+    <div id="notes-section">
+      <h2>Notes</h2>
+      <ul id="notes"></ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
